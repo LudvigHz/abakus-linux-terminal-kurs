@@ -429,10 +429,45 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/emojione@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@iconify-json/emojione/-/emojione-1.1.5.tgz#da8e4a452758b18872aec093448968828a65096f"
+  integrity sha512-yI0rIr1p52jkYKjLUc2crc3h4Jay8Ohh4gUqX8/foqz0odmZEC84cOGbEDVSrnB8+1toz4yjX8OVho99JeoA/g==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/fxemoji@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@iconify-json/fxemoji/-/fxemoji-1.1.3.tgz#ab96fb314be40cd2faefa90e0582c1eb46bec175"
+  integrity sha512-sRFLMgKWueTDhavrdQ3DLDl7jw4diYlajRiIc4S6o/F6v96CagAiulvWeOdlJy0Zr4d8nAIs8tlhLW8sg0X0fA==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/logos@^1.1.22":
+  version "1.1.22"
+  resolved "https://registry.yarnpkg.com/@iconify-json/logos/-/logos-1.1.22.tgz#eb9f86aca7c93be420e2274387fb267e56742701"
+  integrity sha512-vlkTWWWzQ9eghWaoq2D51jPDJBhn6yvjr4TvRJxVPisIm0yDkvt2l4yq/QPonZBSaKuEXga5omDulJHIcSVR3A==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/mdi@^1.1.45":
+  version "1.1.45"
+  resolved "https://registry.yarnpkg.com/@iconify-json/mdi/-/mdi-1.1.45.tgz#154167a5635a05aff8b580df74ca45c78e74c774"
+  integrity sha512-2f4n7qEErLi7jIabpDuaqZ/1FcAN62z0pUY9BvCxOyU6IzqCF1N3trHEF10aHdUOyFZF9YVb2DCigkZrcvnaLw==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/ph@^1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@iconify-json/ph/-/ph-1.1.3.tgz#3534e9b773e56dbc52ca62b748b5fa78dc927643"
   integrity sha512-QSzWMGF8GiBPW89RpQ3bEwEjuRWTv/xxskStUpK7tsXlz3qoPTEM5CQxDUpzUmc9luAWViqD/shIUiuNhUeolw==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/twemoji@^1.1.10":
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/@iconify-json/twemoji/-/twemoji-1.1.10.tgz#ca521a647b2085c19e96b42bd9a54d14a9930d24"
+  integrity sha512-u3SBtWvh6S1qVXqjnQGlPkfxy1HBAwEFuengwau1NngfOc9vpecbKcxvrd85Egf7hMElH/uYCs/yrMnsbZ7yxA==
   dependencies:
     "@iconify/types" "*"
 

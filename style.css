@@ -1,0 +1,12 @@
+.task {
+  background-color: tomato;
+  color: #fff;
+  border-radius: 0.6em;
+  padding: 5px;
+}
+.task h1 {
+  color: #fff;
+}
+.task p {
+  opacity: 0.8;
+}
