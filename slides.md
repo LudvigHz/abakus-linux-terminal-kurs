@@ -268,6 +268,7 @@ de ulemper det medfører.
   forlate komforten av terminalen!
 - <twemoji-smiling-face-with-sunglasses /> Du ser sykt kul ut når folk går forbi på A3
 - <twemoji-shushing-face /> Du får lettere godkjent øvinger
+- <twemoji-racing-car /> Du kan bli **veldig** kjapp!
 
 </v-clicks>
 
@@ -309,6 +310,67 @@ layout: center
 ## Demo
 
 </div>
+
+
+---
+
+# Shellet <mdi-terminal />
+
+Posh, Zsh, Bash, Fish, Sh ???
+
+- Alle disse er ulike _shell_. Et shell er programmet som lar deg skrive tekst input, kjører programmer,
+  og skriver ut outputen.
+- <logos-bash-icon /> De fleste Unix shell (Linux/macOS) er standardiserte (alle funker på samme måte)
+- <mdi-powershell /> Powershell (windows) er eksempel på et veldig annerledes shell
+  - Men fortsatt veldig kraftig!
+  - _Vi fokuserer på bash/zsh siden det er standarden_
+
+
+---
+
+# Shell basics!
+
+101: Tekst inn -> tekst ut
+
+Vi kan ta _output_ fra et program, og gi det til et annet!
+
+- Piping: `cat storfil.txt | grep "nålen"`
+- Vi _befinner_ oss alltid et sted. Tenk: filutforsker <mdi-folder color="cyan" />
+  - Programmer vil ofte gjøre ting med utgangspunkt i mappen du befinner deg i
+- Argumenter: `program -vab --option1 --etternavn=Hozman Ludvig`
+  - > TIP: Gode programmer har tab-completion (bygget inn eller mulig å anskaffe)
+
+
+---
+
+<div class="task">
+
+## Oppgave!
+
+Med hjelp av pipe `|` og flere kommandoer, finn ut hvor mange kurs det er i abakus fra og med i dag.
+
+Du kan finne data med alle kurs her: ("eventType": "course" angir kurs)
+
+`https://lego.abakus.no/api/v1/events/?date_after=2023-02-07`
+
+TIPS:
+- `curl` kan gjøre nettverkskall
+- `jq` kan formatere JSON
+- `grep` kan søke i tekst
+- `wc` kan telle ord og linjer (innebygd i shellet)
+
+</div>
+
+<v-click>
+
+## Fasit
+
+```zsh
+$ curl "https://lego.abakus.no/api/v1/events/?date_after=2023-02-08" -s | jq | grep course | wc -l
+7
+```
+
+</v-click>
 
 
 ---
@@ -413,6 +475,19 @@ TIP: `gh repo create`
 [^ghcli]: <https://github.com/cli/cli> ________ Ubuntu/WSL: [Se her](https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian-ubuntu-linux-raspberry-pi-os-apt)
 
 ---
+
+# Andre kule saker
+
+- `tldr` (Denne er gull!)
+- `grep` (`ripgrep` er en kulere og kjappere grep)
+- `curl`, `wget`
+- `less`
+- og masse mer
+
+DEMO?
+
+
+---
 layout: image-right
 image: https://i.redd.it/191gvl7ldos91.png
 ---
@@ -475,20 +550,6 @@ function foo() {
   cat status.txt
 }
 ```
-
----
-
-# Andre kule saker
-
-- piping! `|`
-- `tldr` (Denne er gull!)
-- `grep` (`ripgrep` er en kulere og kjappere grep)
-- `curl`, `wget`
-- `less`
-- og masse mer
-
-DEMO?
-
 
 
 ---
