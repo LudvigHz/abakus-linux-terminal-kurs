@@ -448,17 +448,17 @@ class: text-center
 
 ### Keyboard Shortcuts
 
-|                                                    |                             |
-| -------------------------------------------------- | --------------------------- |
-| <kbd>Ctrl</kbd>+<kbd>R</kbd>                       | Søk i historikken           |
-| <kbd>Ctrl</kbd>+<kbd>C</kbd>                       | Avbryt det du gjør nå       |
-| <kbd>Ctrl</kbd>+<kbd>D</kbd>                       | Exit shellet ditt           |
-| <kbd>Ctrl</kbd>+<kbd>shift</kbd>+<kbd>C</kbd>      | Kopier                      |
-| <kbd>Ctrl</kbd>+<kbd>shift</kbd>+<kbd>V</kbd>      | Lim inn                     |
-| <kbd>Tab</kbd>                                     | Autocomplete (den nyttigste av alt!) |
+|                                                                                                       |                             |
+| ----------------------------------------------------------------------------------------------------- | --------------------------- |
+| <kbd>Ctrl</kbd>+<kbd>R</kbd>                                                                          | Søk i historikken           |
+| <kbd>Ctrl</kbd>+<kbd>C</kbd>                                                                          | Avbryt det du gjør nå       |
+| <kbd>Ctrl</kbd>+<kbd>D</kbd>                                                                          | Exit shellet ditt           |
+| <kbd>Ctrl</kbd>+<kbd>shift</kbd>+<kbd>C</kbd> (<kbd><mdi-apple-keyboard-command/></kbd>+<kbd>C</kbd>) | Kopier                      |
+| <kbd>Ctrl</kbd>+<kbd>shift</kbd>+<kbd>V</kbd> (<kbd><mdi-apple-keyboard-command/></kbd>+<kbd>C</kbd>) | Lim inn                     |
+| <kbd>Tab</kbd>                                                             | Autocomplete (den nyttigste av alt!) |
 
 
-Er du usikker? Spam <kbd>Tab</kbd>
+## Er du usikker? Spam <kbd>Tab</kbd>
 
 ---
 layout: image
@@ -474,9 +474,13 @@ image: /mashtab.jpg
 ## Bruk git i alle skole prosjekter og gjør mest mulig i terminalen
 
 
-<br>
+Eks:
 
-<v-click>
+- Kjør python programmer i terminalen (`python oving1.py`)
+- lettere: Kjør alt som ikke er Java i terminalen 
+
+
+---
 
 <div class="task">
 
@@ -493,7 +497,10 @@ TIP: `gh repo create`
 
 </div>
 
-</v-click>
+<br>
+<br>
+<br>
+
 
 [^ghcli]: <https://github.com/cli/cli> ________ Ubuntu/WSL: [Se her](https://github.com/cli/cli/blob/trunk/docs/install_linux.md#debian-ubuntu-linux-raspberry-pi-os-apt)
 
