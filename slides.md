@@ -343,6 +343,29 @@ Vi kan ta _output_ fra et program, og gi det til et annet!
 
 ---
 
+# TIP: Terminal
+
+
+**Ikke bruk terminalen i VSCode!!!**
+
+Bruk en ordentlig terminal, gjerne med tabs og flere vinduer
+
+> Defualt terminaler på linux funker bra!
+
+<br>
+<br>
+
+- MacOS: `iTerm2` eller `kitty` er bra valg
+- Windows: `windows terminal`
+
+---
+layout: center
+---
+
+<img  src="/vscodeterminalsucks.png" class="h-140"/>
+
+---
+
 <div class="task">
 
 ## Oppgave!
@@ -366,7 +389,7 @@ TIPS:
 ## Fasit
 
 ```zsh
-$ curl "https://lego.abakus.no/api/v1/events/?date_after=2023-02-08" -s | jq | grep course | wc -l
+$ curl "https://lego.abakus.no/api/v1/events/?date_after=2023-02-07" -s | jq | grep course | wc -l
 7
 ```
 
